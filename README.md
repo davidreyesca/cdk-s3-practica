@@ -1,3 +1,22 @@
+Antes de empezar necesitas
+NPM -> desde navegador
+AWS-CDK -> npm install -g aws-cdk 
+pip -> Instando python desde navegador o miscrosoft store
+awscli -> python -m pip install awscli
+
+Crear projectos (Estos crear su propio entorno virutal)
+Ddesde 0:
+cdk init app --language python
+Un ejemplo de cdk:
+cdk init sample-app --language python
+
+setup.py
+Aquí se agregan servicios extra en caso de ser necesarios
+
+
+cdk synth
+
+cdk deploy
 
 # Welcome to your CDK Python project!
 
@@ -63,3 +82,8 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+CDK
+
+
+
