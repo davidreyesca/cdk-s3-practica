@@ -1,0 +1,39 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:DescribeStacks",
+                "cloudformation:CreateChangeSet",
+                "cloudformation:DescribeChangeSet",
+                "cloudformation:ExecuteChangeSet",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DeleteChangeSet",
+                "cloudformation:GetTemplate",
+                "cloudformation:DeleteStack",
+                "cloudformation:UpdateStack",
+                "ssm:PutParameter",
+                "ssm:DeleteParameter",
+                "ssm:GetParameters",
+                "ssm:GetParameter",
+                "s3:*",
+                "ecr:DeleteRepository",
+                "ecr:PutLifecyclePolicy",
+                "ecr:SetRepositoryPolicy",
+                "ecr:CreateRepository",
+                "ecr:DescribeRepositories",
+                "iam:DetachRolePolicy",
+                "iam:GetRole",
+                "iam:DeleteRolePolicy",
+                "iam:CreateRole",
+                "iam:PutRolePolicy",
+                "iam:AttachRolePolicy",
+                "iam:DeleteRole",
+                "iam:PassRole"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
